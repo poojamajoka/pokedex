@@ -1,6 +1,7 @@
 *.iml
 .gradle
 /.gradle
+.idea
 /local.properties
 /.idea/caches
 /.idea/libraries
@@ -15,3 +16,5 @@
 .cxx
 local.properties
 /app/src/main/res/xml/backup_rules.xml
+/.idea/shelf/Uncommitted_changes_before_rebase_[DONOT_COMMIT]/shelved.patch
+/.idea/shelf/Uncommitted_changes_before_rebase_[DONOT_COMMIT]1/shelved.patch
