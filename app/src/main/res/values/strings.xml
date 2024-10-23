@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Pokédex</string>
+    <string name="title_activity_main">Pokédex</string>
+
+    <!-- Home Page String-->
+    <string name="pokedex">Pokédex</string>
+    <string name="home_page_detail">Search for any Pokémon that exists on the planet</string>
+    <string name="name_number">Name or Number</string>
+
+    <string-array name="filterPokeType">
+        <item name="normal">Normal</item>
+        <item name="fire">Fire</item>
+        <item name="fighting">Fighting</item>
+        <item name="poison">Poison</item>
+        <item name="ground">Ground</item>
+        <item name="rock">Rock</item>
+        <item name="bug">Bug</item>
+        <item name="ghost">Ghost</item>
+        <item name="steel">Steel</item>
+        <item name="fire">Fire</item>
+        <item name="water">Water</item>
+        <item name="grass">Grass</item>
+        <item name="electric">Electric</item>
+        <item name="physic">Physic</item>
+        <item name="ice">Ice</item>
+        <item name="dragon">Dragon</item>
+        <item name="dark">Dark</item>
+        <item name="fairy">Fairy</item>
+        <item name="unknown">Unknown</item>
+        <item name="shadow">Shadow</item>
+    </string-array>
+
+    <!--detail page strings-->
+    <string name="description">Spits fire that is hot enough to melt boulders.
+        Known to cause forest fires unintentionally. When expelling a blast of super hot fire,
+        the red flame at the tip of its tail burns more intensely.
+        If CHARIZARD be­comes furious, the flame at the tip of its tail flares up
+        in a whitish-blue color. Breathing intense, hot flames, it can melt almost any­ thing.
+        Its breath inflicts terrible pain on enemies. It uses its wings to fly high.
+        The temperature of its fire increases as it gains exper­\nience in battle.
+        CHARIZARD flies around the sky in search of powerful opponents.
+        It breathes fire of such great heat that it melts anything.
+        However, it never turns its fiery breath on any opponent weaker than itself.
+        Its wings can carry this POKéMON close to an altitude of 4,600 feet.
+        It blows out\nfire at very high temperatures. It is said that CHARIZARD’s
+        fire burns hotter if it has\nexperienced harsh battles.</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="gender">Gender(s)</string>
+    <string name="egg_group">EggGroups</string>
+    <string name="abilities">Abilities</string>
+    <string name="types">Types</string>
+    <string name="weakness">Weak Against</string>
+    <string name="stats">Stats</string>
+    <string name="evoltuion_chain">Evolution Chain</string>
+    <string name="na">NA</string>
+    <string name="filter_type">Type</string>
+    <string name="apply">Apply</string>
+    <string name="reset">Reset</string>
+    <string name="filters">Filters</string>
+    <string name="filter_gender">Gender</string>
+</resources>

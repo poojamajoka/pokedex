@@ -1,0 +1,29 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+
+    ext {
+        coroutine_version = '1.6.4'
+        coroutine_test_version = '1.6.0'
+        retrofitVersion = '2.9.0'
+        okhttpInterceptorVersion = '4.9.1'
+        kotlin_version='1.8.0'
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:8.0.0"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.3.15'
+        classpath 'com.google.firebase:perf-plugin:1.4.2'
+        classpath 'androidx.benchmark:benchmark-baseline-profile-gradle-plugin:1.2.3'
+        classpath 'androidx.benchmark:benchmark-gradle-plugin:1.2.3'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

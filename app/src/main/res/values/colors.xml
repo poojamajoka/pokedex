@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="code_2E3156">#2E3156</color>
+    <color name="code_5D5F7E">#5D5F7E</color>
+    <color name="code_5D5F7E80">#5D5F7E80</color>
+    <color name="code_DEEDED">#DEEDED</color>
+    <color name="code_2E3156_alpha">#152E3156</color>
+    <color name="code_C9DEE2">#80C9DDE2</color>
+    <!--pokemon gradient color acc. to his type-->
+    <color name="normal">#DDCBD0</color>
+    <color name="rock">#C5AEA8</color>
+    <color name="water">#CBD5ED</color>
+    <color name="dragon">#CADCDF</color>
+    <color name="fighting">#FCC1B0</color>
+    <color name="bug">#C1E0C8</color>
+    <color name="grass">#C0D4C8</color>
+    <color name="dark">#C6C5E3</color>
+    <color name="flying">#B2D2E8</color>
+    <color name="ghost">#D7C2D7</color>
+    <color name="electric">#E2E2A0</color>
+    <color name="fairy">#E4C0CF</color>
+    <color name="poison">#CFB7ED</color>
+    <color name="steel">#C2D4CE</color>
+    <color name="physic">#DDC0CF</color>
+    <color name="unknown">#C0DFDD</color>
+    <color name="ground">#F4D1A6</color>
+    <color name="fire">#EDC2C4</color>
+    <color name="ice">#C7D7DF</color>
+    <color name="shadow">#C7D7DF</color>
+    <color name="code_B0D2D2">#B0D2D2</color>
+    <color name="code_93B2B2">#93B2B2</color>
+
+
+</resources>
