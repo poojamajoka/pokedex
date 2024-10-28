@@ -3,7 +3,7 @@ package com.pokemon.pokedex.data.model
 import com.google.gson.annotations.SerializedName
 
 /**
- * poke gender detail data
+ * poke gender detail with species
  */
 data class PokeGenderDetail(
 
