@@ -2,6 +2,9 @@ package com.pokemon.pokedex.data.model
 
 import com.google.gson.annotations.SerializedName
 
+/**
+ * poke detail
+ */
 data class PokeGenderDetail(
 
 	@field:SerializedName("required_for_evolution")
