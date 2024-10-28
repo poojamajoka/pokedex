@@ -58,6 +58,9 @@ private lateinit var filterTypeList: MutableState<ArrayList<FilterPokeTypeModel>
  */
 private lateinit var pokemonList: Flow<PagingData<ResultsItem>>
 
+/**
+ * home ui
+ */
 @Composable
 fun HomeScreen(viewModel: MainViewModel) {
     mainViewModel = viewModel
