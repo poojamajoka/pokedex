@@ -25,7 +25,7 @@ import com.pokemon.pokedex.util.GradientColor
 import com.pokemon.pokedex.util.Utility.Companion.toUpperFirstChar
 
 /**
- * profile of pokemon
+ * profile of pokemon with pokemon power and gender
  */
 @Composable
 fun PokeProfileView(
