@@ -13,7 +13,7 @@ import com.pokemon.pokedex.R
 import com.pokemon.pokedex.util.GradientColor.getColor
 
 /**
- * expandable textview
+ * expandable textview with text
  */
 @Composable
 fun ExpandingText(modifier: Modifier = Modifier, text: String) {
