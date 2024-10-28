@@ -11,6 +11,9 @@ import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
+/**
+ * network module
+ */
 val networkModule = module {
     single { headerInterceptor() }
     single { okhttpClient(get()) }

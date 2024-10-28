@@ -24,6 +24,9 @@ import com.pokemon.pokedex.util.GenderDataUtility
 import com.pokemon.pokedex.util.GradientColor
 import com.pokemon.pokedex.util.Utility.Companion.toUpperFirstChar
 
+/**
+ * profile of pokemon with pokemon power and gender and master data
+ */
 @Composable
 fun PokeProfileView(
     pokeDescData: PokemonDescriptionData?,

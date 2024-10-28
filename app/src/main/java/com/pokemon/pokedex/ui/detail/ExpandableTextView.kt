@@ -12,6 +12,9 @@ import androidx.compose.ui.unit.sp
 import com.pokemon.pokedex.R
 import com.pokemon.pokedex.util.GradientColor.getColor
 
+/**
+ * expandable textview with text
+ */
 @Composable
 fun ExpandingText(modifier: Modifier = Modifier, text: String) {
     val MINIMIZED_MAX_LINES = 10

@@ -38,7 +38,9 @@ import com.pokemon.pokedex.util.Utility.Companion.toUpperFirstChar
 
 private lateinit var pokeDetail: ResultsItem
 private lateinit var mainViewModel: MainViewModel
-
+/*
+description of pokemon
+ */
 @OptIn(ExperimentalComposeUiApi::class)
 @Composable
 fun DetailDialog(
