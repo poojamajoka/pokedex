@@ -1,6 +1,5 @@
 package com.pokemon.pokedex.ui.home
 
-import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -8,10 +7,13 @@ import androidx.lifecycle.viewModelScope
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
-import com.pokemon.pokedex.data.model.*
+import com.pokemon.pokedex.data.model.PokeGenderMasterData
+import com.pokemon.pokedex.data.model.PokemonDescriptionData
+import com.pokemon.pokedex.data.model.PokemonPower
+import com.pokemon.pokedex.data.model.ResultsItem
 import com.pokemon.pokedex.data.network.ApiStatus
-import com.pokemon.pokedex.data.repository.PokemonRepository
 import com.pokemon.pokedex.data.repository.PokemonListSource
+import com.pokemon.pokedex.data.repository.PokemonRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
