@@ -5,6 +5,9 @@ import com.pokemon.pokedex.data.repository.PokemonRepository
 
 import org.koin.dsl.module
 
+/**
+ * repo module
+ */
 val repositoryModule = module {
     single { createRepository(get()) }
 }
