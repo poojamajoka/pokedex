@@ -2,6 +2,9 @@ package com.pokemon.pokedex.data.model
 
 import com.google.gson.annotations.SerializedName
 
+/**
+ * pokemon power
+ */
 data class PokemonPower(
 
     @field:SerializedName("generation")
