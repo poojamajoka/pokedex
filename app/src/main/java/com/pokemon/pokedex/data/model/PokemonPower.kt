@@ -3,7 +3,7 @@ package com.pokemon.pokedex.data.model
 import com.google.gson.annotations.SerializedName
 
 /**
- * pokemon power
+ * pokemon power strength and weakness
  */
 data class PokemonPower(
 
